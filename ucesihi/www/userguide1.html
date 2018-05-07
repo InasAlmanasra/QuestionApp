@@ -1,0 +1,36 @@
+    <title>Technical User Guide</title>
+
+<p>Question setting:<p>
+<p> Overview <p>
+
+<p> The question setting app is a web-based application that allows you the following: <p>
+<p>   1.	Click on the map and view coordinates of your points.<p>
+<p>   2.	Fill in the below form, which includes the following:<p>
+<p>      a.	Write a question for that point.<p>
+<p>      b.	Write four possible answers.<p>
+<p>      c.	Tick the correct answer for that question.<p>
+<p>      d.	Fill in the coordinates you see on the map. <p>
+<p>   3.	Upload the data into a central data base that can be accessed and used later.<p>
+<p>   4.	Finally you will see “row inserted” message to confirm that your data has indeed been successfully uploaded to the database.<p>
+<p>Requirements to run this web-app:<p>
+<p>Hardware requirements:<p>
+<p>A computer or a laptop.<p>
+<p>Software requirements:<p>
+<p>SSH file such as Bitvise SFTP for windows.<p>
+<p>Steps:<p>
+<p>1.	Log in to the Bitvise SSH.<p>
+<p>2.	In the Terminal window clone the following repositories:<p>
+<p>https://github.com/InasAlmanasra/questions<p>
+<p>https://github.com/InasAlmanasra/server/blob/master/httpServer2.js<p>
+<p>3.	Run the servers by:<p>
+<p> a.	node server.js & ---- from the questions/js work directory.<p>
+<p> b.	node uploadData.js & ---- from the questions/js work directory.<p>
+<p> c.	node httpServer2.js & ---- from the server directory.<p>
+<p>4.	Run the phonegap by typing: “phonegap serve”.<p>
+<p>5.	In the web browser copy the following link: http://developer.cege.ucl.ac.uk:31303/<p>
+<p>6.	Click on the map where u want your points.<p>
+<p>7.	Fill in the form, make sure you fill all the needed spaces, and add the location as seen on the map in form of longitude and latitude.<p>
+<p>8.	You may check the databases go to public schema “quiz”.<p>
+
+
+
